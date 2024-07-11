@@ -90,7 +90,7 @@ if len(sys.argv) < 2:
 elif len(sys.argv) < 3:
     print('[Error] input $2, action')
     print('s : Sets brightness')
-    print('p : Increses brightness')
+    print('p : Increases brightness')
     print('m : Decreases brightness')
     quit()
 
