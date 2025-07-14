@@ -1,0 +1,19 @@
+[project]
+name = "munsell"
+version = "0.1"
+description = "Munsell is used to adjust the backlight brightness based on the Munsell color system"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  {name = "Takashi Sugibayashi", email = "sugibayashi@protonmail.com"},
+]
+dependencies = [
+]
+
+[project.scripts]
+munsell = "munsell.main:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
